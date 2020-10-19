@@ -16,9 +16,9 @@ function navbar() {
                 <nav>
                     <ul className="nav-responsive">
                         <li><a href={url}>Home</a></li>
-                        <li><a href={url}>Upload</a></li>
+                        <li><a href={url}>Order</a></li>
                         <li><a href={url}>Your Account</a></li>
-                        <li><a href={url}>Login</a></li>
+                        <li><a href={url}>Upcoming</a></li>
                         <li><a className="cta-responsive" href={url}><button className="btn-nav-responsive">Contact</button></a></li>
                     </ul>
                 </nav>
@@ -29,9 +29,9 @@ function navbar() {
             <nav>
                 <ul className="nav_link">
                         <li><a href={url}>Home</a></li>
-                        <li><a href={url}>Upload</a></li>
+                        <li><a href={url}>Order</a></li>
                         <li><a href={url}>Your Account</a></li>
-                        <li><a href={url}>Login</a></li>
+                        <li><a href={url}>Upcoming</a></li>
                 </ul>
             </nav>
             <a className="cta" href={url}><button className="btn-nav">Contact</button></a>
