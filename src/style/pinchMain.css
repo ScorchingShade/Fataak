@@ -522,7 +522,7 @@ header {
     display: none;
     cursor: pointer;
     width: 10.5%;
-    padding: 2%;
+    padding: 1%;
 }
 
 
@@ -659,10 +659,10 @@ header {
     }
     .logo_responsive {
         display: inline-block;
-        margin-top: 2%;
+        margin-top: 15%;
         cursor: pointer;
-        width: 105%;
-        padding: 0%;
+        width: 50%;
+        height: 50%;
     }
     #check:checked~ul {
         left: 0;

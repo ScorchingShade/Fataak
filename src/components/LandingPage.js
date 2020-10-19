@@ -18,7 +18,7 @@ function LandingPage() {
                     <span className="tooltiptext">Home</span>
                     </li>
                     <li className="tooltip-2"><a href={url}><i className="fa fa-user-circle" aria-hidden="true"></i></a>
-                    <span className="tooltiptext">Accountt</span>
+                    <span className="tooltiptext">Account</span>
                     </li>
                     <li className="tooltip-3"><a href={url}><i className="fa fa-cart-plus" aria-hidden="true"></i></a>
                     <span className="tooltiptext">Order now</span>

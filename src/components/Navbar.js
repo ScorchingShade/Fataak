@@ -1,5 +1,6 @@
 import React from 'react'
 import '../style/pinchMain.css'
+import logo from '../resources/Fataak.png'
 
 function navbar() {
     let url="";
@@ -8,7 +9,7 @@ function navbar() {
         <div className="container-ex nav-dracula">
         <div>
             <input type="checkbox" id="check" value="checked"/>
-            <img className="logo_responsive" src="https://new.tamuc.edu/wp-content/uploads/2019/08/Lion-Head-Clear-Space.png" alt="logo"/>
+            <img className="logo_responsive" src={logo} alt="logo"/>
             <label className="checkbtn" for="check">
             <i className="fa fa-bars" style={{color:"white"}} ></i>
             </label>
@@ -25,7 +26,7 @@ function navbar() {
             </header>
         </div>
         <header>
-            <img className="logo" src="https://new.tamuc.edu/wp-content/uploads/2019/08/Lion-Head-Clear-Space.png" alt="logo"/>
+            <img className="logo" src={logo} style={{height:"50%"}} alt="logo"/>
             <nav>
                 <ul className="nav_link">
                         <li className="bolder-text"><a href={url}>Home</a></li>

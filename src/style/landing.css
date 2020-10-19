@@ -18,9 +18,10 @@
     z-index: -1;
     padding: 2%;
     cursor: pointer;
-    margin: 2%;
+    margin: 4%;
     border-radius: 1%;
-    line-height: 12vh;
+    line-height: 9vh;
+    padding: 7%;
 }
 
 .bolder-text {
