@@ -1,6 +1,7 @@
 import React from 'react'
 
 function Footer() {
+    let url="";
     return (
         <div>
             <footer className="footer__dark" style={{padding:"1.3%"}}>
@@ -31,11 +32,11 @@ function Footer() {
                             <h2 className="footer__item-title">Quick Links</h2>
                             <br></br>
                             <ul className="footer__item-list">
-                                <li><a className="footer__item-link" href="#">Home</a></li>
-                                <li><a className="footer__item-link" href="#">Order</a></li>
-                                <li><a className="footer__item-link" href="#">Your Account</a></li>
-                                <li><a className="footer__item-link" href="#">Upcoming</a></li>
-                                <li><a className="footer__item-link" href="#">Contact us</a></li>
+                                <li><a className="footer__item-link" href={url}>Home</a></li>
+                                <li><a className="footer__item-link" href={url}>Order</a></li>
+                                <li><a className="footer__item-link" href={url}>Your Account</a></li>
+                                <li><a className="footer__item-link" href={url}>Upcoming</a></li>
+                                <li><a className="footer__item-link" href={url}>Contact us</a></li>
                             </ul>
                         </div>
                         

@@ -14,16 +14,16 @@ function LandingPage() {
             <p className="disp-sm" style={{textAlign:"center"}}>10 items, 7 days, best prices always!</p>
             <div className="glow-position">
                 <ul className="ul-move tooltip">
-                    <li className="tooltip-1"><a href={url}><i className="fa fa-home" aria-hidden="true"></i></a>
+                    <li className="tooltip-1"><a href={url}><i className="fa fa-home" aria-hidden="true"></i> </a>
                     <span className="tooltiptext">Home</span>
                     </li>
-                    <li className="tooltip-2"><a href={url}><i className="fa fa-user-circle" aria-hidden="true"></i></a>
+                    <li className="tooltip-2"><a href={url}><i className="fa fa-user-circle" aria-hidden="true"></i> </a>
                     <span className="tooltiptext">Account</span>
                     </li>
-                    <li className="tooltip-3"><a href={url}><i className="fa fa-cart-plus" aria-hidden="true"></i></a>
+                    <li className="tooltip-3"><a href={url}><i className="fa fa-cart-plus" aria-hidden="true"></i> </a>
                     <span className="tooltiptext">Order now</span>
                     </li>
-                    <li className="tooltip-4"><a href={url}><i className="fa fa-star" aria-hidden="true"></i></a>
+                    <li className="tooltip-4"><a href={url}><i className="fa fa-star" aria-hidden="true"></i> </a>
                     <span className="tooltiptext">Upcoming!</span>
                     </li>
                 </ul>
@@ -43,7 +43,12 @@ function LandingPage() {
             <br></br>
                 <p className="disp-sm caption-text">Welcome to Fataak, a store where you can buy 10 unique items every week!</p>
                 <p className="disp-xs shake caption-sub-text">No need to spend hours scrolling! Just tap, add and pay! Its that easy!</p>
+                <br></br>
 
+                <div>
+        <span class="arrow">Click here to explore</span>
+        <span class="dash">_</span>
+        </div>
         
             <br></br>
             <br></br>    
