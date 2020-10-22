@@ -24,7 +24,7 @@ function LandingPage() {
                     <span className="tooltiptext">Order now</span>
                     </li>
                     <li className="tooltip-4"><a href={url}><i className="fa fa-star" aria-hidden="true"></i> </a>
-                    <span className="tooltiptext">Upcoming!</span>
+                    <span className="tooltiptext">Upcoming</span>
                     </li>
                 </ul>
             </div>
